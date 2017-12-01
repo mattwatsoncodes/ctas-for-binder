@@ -1,0 +1,43 @@
+/* ==========================================================================
+   PLUGIN SCSS
+   ========================================================================== */
+/**
+ * CSS for the plugin front end.
+ *
+ * The CSS here should exist here just for reference. We highly recommend that
+ * you delete, this CSS and create your own within your existing theme, and
+ * concatinate it within your existing workflow.
+ */
+/* ==========================================================================
+   # Binder Document CTA
+   ========================================================================== */
+.c-binder-cta-wrapper {
+  text-align: center;
+  display: block;
+  width: 100%; }
+
+.c-binder-cta {
+  border: 1px solid #666;
+  color: #666;
+  text-decoration: none;
+  margin-bottom: 1em; }
+  .c-binder-cta .c-binder-cta__meta {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: inline; }
+    .c-binder-cta .c-binder-cta__meta .c-binder-cta__meta-item {
+      margin: 0px;
+      padding: 0px 0px 0px 10px;
+      display: inline-block;
+      list-style: none; }
+      .c-binder-cta .c-binder-cta__meta .c-binder-cta__meta-item .fa {
+        width: 20px;
+        padding-left: 0px; }
+  .c-binder-cta .fa {
+    padding-left: 10px; }
+  .c-binder-cta:hover {
+    border: 1px solid #ccc;
+    color: #ccc; }
+
+/*# sourceMappingURL=plugin.css.map */

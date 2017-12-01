@@ -1,0 +1,15 @@
+{
+	"version": 3,
+	"sourceRoot": "assets/css",
+	"file": "plugin.css",
+	"sources": [
+		"../src/sass/plugin.scss",
+		"../src/sass/components/_components.binder-document-cta.scss"
+	],
+	"sourcesContent": [
+		"@charset \"UTF-8\";\n\n/* ==========================================================================\n   PLUGIN SCSS\n   ========================================================================== */\n\n/**\n * CSS for the plugin front end.\n *\n * The CSS here should exist here just for reference. We highly recommend that\n * you delete, this CSS and create your own within your existing theme, and\n * concatinate it within your existing workflow.\n */\n\n// COMPONENTS\n//\n// Build and include your project’s UI Compoments here.\n@import \"components/components.binder-document-cta\";\n",
+		"/* ==========================================================================\n   # Binder Document CTA\n   ========================================================================== */\n\n.c-binder-cta-wrapper {\n\ttext-align: center;\n\tdisplay: block;\n\twidth: 100%;\n}\n\n.c-binder-cta {\n\tborder: 1px solid #666;\n\tcolor: #666;\n\ttext-decoration: none;\n\tmargin-bottom: 1em;\n\n\t.c-binder-cta__meta {\n\t\tmargin: 0px;\n\t\tpadding: 0px;\n\t\tlist-style: none;\n\t\tdisplay: inline;\n\n\t\t.c-binder-cta__meta-item {\n\t\t\tmargin: 0px;\n\t\t\tpadding: 0px 0px 0px 10px;\n\t\t\tdisplay: inline-block;\n\t\t\tlist-style: none;\n\n\t\t\t.fa {\n\t\t\t\twidth: 20px;\n\t\t\t\tpadding-left: 0px;\n\t\t\t}\n\t\t}\n\t}\n\n\t.fa {\n\t\tpadding-left: 10px;\n\t}\n\n\t&:hover {\n\t\tborder: 1px solid #ccc;\n\t\tcolor: #ccc;\n\t}\n}\n"
+	],
+	"mappings": "AAEA;;gFAEgF;AAEhF;;;;;;GAMG;ACZH;;gFAEgF;AAEhF,AAAA,qBAAqB,CAAC;EACrB,UAAU,EAAE,MAAO;EACnB,OAAO,EAAE,KAAM;EACf,KAAK,EAAE,IAAK,GACZ;;AAED,AAAA,aAAa,CAAC;EACb,MAAM,EAAE,cAAe;EACvB,KAAK,EAAE,IAAK;EACZ,eAAe,EAAE,IAAK;EACtB,aAAa,EAAE,GAAI,GA6BnB;EAjCD,AAMC,aANY,CAMZ,mBAAmB,CAAC;IACnB,MAAM,EAAE,GAAI;IACZ,OAAO,EAAE,GAAI;IACb,UAAU,EAAE,IAAK;IACjB,OAAO,EAAE,MAAO,GAahB;IAvBF,AAYE,aAZW,CAMZ,mBAAmB,CAMlB,wBAAwB,CAAC;MACxB,MAAM,EAAE,GAAI;MACZ,OAAO,EAAE,gBAAiB;MAC1B,OAAO,EAAE,YAAa;MACtB,UAAU,EAAE,IAAK,GAMjB;MAtBH,AAkBG,aAlBU,CAMZ,mBAAmB,CAMlB,wBAAwB,CAMvB,GAAG,CAAC;QACH,KAAK,EAAE,IAAK;QACZ,YAAY,EAAE,GAAI,GAClB;EArBJ,AAyBC,aAzBY,CAyBZ,GAAG,CAAC;IACH,YAAY,EAAE,IAAK,GACnB;EA3BF,AAAA,aAAa,AA6BX,MAAM,CAAC;IACP,MAAM,EAAE,cAAe;IACvB,KAAK,EAAE,IAAK,GACZ",
+	"names": []
+}
